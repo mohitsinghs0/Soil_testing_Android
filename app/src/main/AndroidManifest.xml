@@ -45,10 +45,6 @@
             android:name="com.digitalsmartsoil.ui.activity.ForgotPasswordActivity"
             android:exported="true"
             android:label="Forgot Password" />
-        <activity
-            android:name="com.digitalsmartsoil.ui.activity.ResetPasswordActivity"
-            android:exported="true"
-            android:label="Reset Password" />
         
         <!-- Main Activity -->
         <activity

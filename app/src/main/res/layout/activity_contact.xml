@@ -1,38 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="@dimen/spacing_md">
-    
-    <EditText
-        android:id="@+id/contact_name"
+    android:layout_height="match_parent">
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/button_height"
-        android:hint="Your Name"
-        android:layout_marginTop="@dimen/spacing_lg" />
-    
-    <EditText
-        android:id="@+id/contact_email"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/button_height"
-        android:hint="@string/email_hint"
-        android:inputType="textEmailAddress"
-        android:layout_marginTop="@dimen/spacing_md" />
-    
-    <EditText
-        android:id="@+id/contact_message"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:hint="Your Message"
-        android:gravity="top"
-        android:inputType="textMultiLine"
-        android:layout_marginTop="@dimen/spacing_md" />
-    
-    <Button
-        android:id="@+id/contact_send"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/button_height"
-        android:text="Send Message"
-        android:layout_marginTop="@dimen/spacing_lg" />
-</LinearLayout>
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Support"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/name_input"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Your Name"
+            android:layout_marginBottom="12dp"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/mobile_input"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Mobile"
+            android:inputType="phone"
+            android:layout_marginBottom="12dp"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/message_input"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Your Message"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Submit"
+            android:background="@color/primary_green"
+            android:textColor="@color/bg_white"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/call_support_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Call Support"
+            android:background="@color/primary_green"
+            android:textColor="@color/bg_white" />
+
+    </LinearLayout>
+
+</ScrollView>
