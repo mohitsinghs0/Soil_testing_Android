@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph">
+    
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.digitalsmartsoil.app.fragments.DashboardFragment"
+        android:label="Dashboard" />
+    
+    <fragment
+        android:id="@+id/soilTestFragment"
+        android:name="com.digitalsmartsoil.app.fragments.SoilTestFragment"
+        android:label="Soil Test" />
+    
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.digitalsmartsoil.app.fragments.HistoryFragment"
+        android:label="History" />
+    
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.digitalsmartsoil.app.fragments.ProfileFragment"
+        android:label="Profile" />
+</navigation>

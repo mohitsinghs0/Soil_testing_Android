@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Soil_testing" parent="android:Theme.Material.Light.NoActionBar" />
+    
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorPrimaryDark">@color/secondary_earth</item>
+        <item name="colorAccent">@color/primary_gold</item>
+    </style>
+    
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="backgroundColor">@color/primary_green</item>
+        <item name="android:textColor">@color/card_white</item>
+    </style>
+    
+    <style name="TextInputStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/bg_input_field</item>
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+    </style>
+</resources>

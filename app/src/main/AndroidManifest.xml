@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Soil_testing">
+        
+        <!-- Splash Activity -->
+        <activity
+            android:name="com.digitalsmartsoil.ui.activity.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Soil_testing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Auth Activities -->
+        <activity
+            android:name="com.digitalsmartsoil.ui.activity.LoginActivity"
+            android:exported="true"
+            android:label="@string/login_title" />
+        <activity
+            android:name="com.digitalsmartsoil.ui.activity.RegisterActivity"
+            android:exported="true"
+            android:label="@string/register_title" />
+        <activity
+            android:name="com.digitalsmartsoil.ui.activity.ForgotPasswordActivity"
+            android:exported="true"
+            android:label="Forgot Password" />
+        <activity
+            android:name="com.digitalsmartsoil.ui.activity.ResetPasswordActivity"
+            android:exported="true"
+            android:label="Reset Password" />
+        
+        <!-- Main Activity -->
+        <activity
+            android:name="com.digitalsmartsoil.ui.activity.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Soil_testing" />
+        
+        <!-- Farm Activities -->
+        <activity
+            android:name="com.digitalsmartsoil.ui.activity.AddFarmActivity"
+            android:exported="true"
+            android:label="@string/add_farm" />
+        
+        <!-- Soil Test Activities -->
+        <activity
+            android:name="com.digitalsmartsoil.ui.activity.SoilTestActivity"
+            android:exported="true"
+            android:label="@string/soil_test_title" />
+        
+        <!-- History Activity -->
+        <activity
+            android:name="com.digitalsmartsoil.ui.activity.HistoryActivity"
+            android:exported="true"
+            android:label="@string/history_title" />
+        
+        <!-- Profile Activity -->
+        <activity
+            android:name="com.digitalsmartsoil.ui.activity.ProfileActivity"
+            android:exported="true"
+            android:label="@string/profile_title" />
+        
+        <!-- Informational Activities -->
+        <activity
+            android:name="com.digitalsmartsoil.ui.activity.AboutActivity"
+            android:exported="true"
+            android:label="About" />
+        <activity
+            android:name="com.digitalsmartsoil.ui.activity.HowToUseActivity"
+            android:exported="true"
+            android:label="How to Use" />
+        <activity
+            android:name="com.digitalsmartsoil.ui.activity.ContactActivity"
+            android:exported="true"
+            android:label="Contact Us" />
+    </application>
+
+</manifest>

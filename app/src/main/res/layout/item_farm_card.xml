@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_md"
+    android:background="@drawable/bg_glass_card"
+    android:layout_margin="@dimen/spacing_sm">
+    
+    <TextView
+        android:id="@+id/farm_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/farm_location_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_medium"
+        android:layout_marginTop="@dimen/spacing_sm" />
+    
+    <TextView
+        android:id="@+id/farm_status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_small"
+        android:layout_marginTop="@dimen/spacing_sm" />
+</LinearLayout>

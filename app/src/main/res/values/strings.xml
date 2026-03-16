@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SmartSoil</string>
+    <string name="login_title">Login</string>
+    <string name="register_title">Register</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="soil_test_title">Soil Test</string>
+    <string name="history_title">History</string>
+    <string name="profile_title">Profile</string>
+    <string name="add_farm">Add Farm</string>
+    <string name="farm_name">Farm Name</string>
+    <string name="location">Location</string>
+    <string name="nitrogen">Nitrogen</string>
+    <string name="phosphorus">Phosphorus</string>
+    <string name="potassium">Potassium</string>
+</resources>

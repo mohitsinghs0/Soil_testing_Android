@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_sprout"
+        android:title="Dashboard" />
+    <item
+        android:id="@+id/nav_soil_test"
+        android:icon="@drawable/ic_flask"
+        android:title="Soil Test" />
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/ic_leaf"
+        android:title="History" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_leaf"
+        android:title="Profile" />
+</menu>
